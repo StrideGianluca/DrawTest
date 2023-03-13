@@ -45,7 +45,7 @@ const App = () => {
         onTouchEnd={handleMouseUp}
       >
         <Layer>
-          <Text text="Just start drawing" x={5} y={30} />
+          <Text text="" x={5} y={30} />
           {lines.map((line, i) => (
             <Line
               key={i}
