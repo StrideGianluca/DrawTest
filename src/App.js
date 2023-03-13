@@ -50,7 +50,7 @@ const App = () => {
             <Line
               key={i}
               points={line.points}
-              stroke="#df4b26"
+              stroke="#00000"
               strokeWidth={line.tool === "eraser" ? 100 : 5}
               tension={0.5}
               lineCap="round"
